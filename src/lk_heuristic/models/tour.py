@@ -60,7 +60,7 @@ class Tour:
             self.nodes[i].pred = self.nodes[i - 1]
 
             self.nodes[i].pos = i
-            self.nodes[i].id = i
+            # self.nodes[i].id = i
 
     def set_edges(self):
         """
